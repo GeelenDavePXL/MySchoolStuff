@@ -1,0 +1,42 @@
+vorige les= hyperlink aangemaakt "click me :)"
+
+------------------------------------------------------------
+<style>
+	hiertussen CSS code. (vormgeving)
+
+	.bold{							(. verwijst altijd naar class-naam)
+		font-weight: bold;
+	}
+	
+	# strong-text{
+		
+	}
+</style>
+
+
+
+
+
+
+--------------------------
+SHORTCUTS
+---------
+	ctrl + spatie = nog veel nodig
+
+	<!-- commentaar schrijven -->
+	ctrl shift /
+
+	Settings
+	ctrl alt S
+
+ ?	CTRL + d  = dupliceren	(kopiëren)
+	div*3 (tab) = 3x div aangemaakt
+	div.eerste*3 = vul 3 div's die elk de class 'eerste' bevatten
+
+
+VRAGEN:
+	hoe TEAMS meeting recorden (opnemen) (bewaren) ?
+
+
+
+

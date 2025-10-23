@@ -1,0 +1,49 @@
+	git status
+	git add .
+	git commit .
+	git push -m "test blabla"
+	
+
+==========================================================================================================================================================================================
+Git
+	DaveGeelenPXL
+
+	
+	c/users/dave/keyname
+	passphrase = schaken?		(om te identificeren)
+	Identity added: /c/Users/daveg/keyName (12304475@student.pxl.be)
+
+==========================================================================================================================================================================================
+SSH key:
+
+$ ssh-keygen -t rsa -b 4096 -C dave.geelen@student.pxl.be
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/daveg/.ssh/id_rsa): keyName
+Enter passphrase for "keyName" (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in keyName
+Your public key has been saved in keyName.pub
+
+The key fingerprint is:
+SHA256:OL/vmZ4g3BW/OwM5MqdLIveGkFFbscvJxGerECdDznk dave.geelen@student.pxl.be
+
+The key's randomart image is:
++---[RSA 4096]----+
+|      . ..       |
+|     +.o..       |
+|     .BoE +      |
+|    . .@ = +     |
+|     o+ S o..    |
+|    o. =oo=  .   |
+|    ..=.*= o.    |
+|     o.=oo +o.   |
+|       .+=B .o   |
++----[SHA256]-----+
+
+==========================================================================================================================================================================================
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCXElWWy0N8ZSlGGsRPgeaPT9YJ4dCv3zDr2X2IXXKprpQcIOR7dqqXRHt8vOUz6QtFW5zve86YFTA/RknBKdhIrDhENZnNN4GDrQNSsjjKdBI4LkPTDHjY1Y+cr8KVBt3SFeTSq153KWCr9SyiXx57sfIBNRnIBh8lCP1zLJ3jRGFHPKs8vjWomZno+VrYI306ItvdXOSEh9u20xY6O4LyBdDojpEKMB3+DzGSq/WTyKV7MuBHhSzjRvL2eQD8QzqgNGUtciRMur8JmxSIiokbD0ic71yachUoHMoI0hcjH++Jyjc/tSZe9QMts85GVofwnrVnCwNOg7UHNEbvkawJeMH8D/V1sBv9Qd/gOBd+Cu0CbHP1TmP3tkFNiLTyQ5j1VvCKjdImd1MHBjnOcuAuuBSWME5VYe1WwnN8ytgH9kG8UgxgkJwUh/bnhSp/HQRVc+HY3yTxP4Lic/xQOvDm+IFKwJ9KkJCEOhepXN7C9XGozkkRX7cNqkA4Zg5Z/MHBtQPjsvjpVhozPk0BWpJ+VeW/AAT+RlEaaQlMFb5qnJ80HFE7W4k3jR+IO54SBESMUVMAaqE9VS4Av67kUVOlN8+DJOCUDroLAdmb5imSTgBf+nE0v6sfj9wVJ0jQ6pDXN/20pYexuG/sFdwXed4UA0o9nC3Awh7GExb5+amksw== dave.geelen@student.pxl.be
+==========================================================================================================================================================================================
+
+
+
+

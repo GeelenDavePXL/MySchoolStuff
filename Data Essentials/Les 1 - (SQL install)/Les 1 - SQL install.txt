@@ -1,0 +1,44 @@
+
+
+incognito (site)
+	rechtsboven op ... klikken
+	--> inprivate-venster openen (vergeet alle logins van alle accounts) --> zo inloggen bij PXL, ipv Syntra, en BlackBoard en Mails bekijken.
+		(CTRL SHIFT N)
+
+
+SQL
+	LAPTOP-KCPRIJSL\SQLEXPRESS
+
+
+
+
+
+CMD installeren
+	CTRL R	(command prompt openen)
+	-->	cmd, enter
+	--> 	geef in:	sqlcmd -?
+
+
+
+Samenvatting:
+	Installeer SQL Server Express met "Mixed Mode" en wachtwoord digital@PXL
+	Installeer SQLCMD als opdrachtregeltool
+	Test of alles werkt via sqlcmd -?
+
+--------------------------------------------
+Omgeving instellen
+
+3. Verbinden met SQL Server via SQLCMD
+Met de optie -S (hoofdletter!) kan je de naam van de server meegeven waarnaar je wil verbinden.
+En met de optie -U (ook hoofdletter!) geef je de gebruiker mee. 
+Het wachtwoord geef je tenslotte mee achter de -P optie.
+	Tijdens de cursus werken we met de sa (system administrator) user.
+	Gebruik nu volgend commando om te verbinden met de server:
+sqlcmd -S .\SQLEXPRESS -U sa -P digital@PXL
+
+	CTRL R	(command prompt openen)
+	-->	cmd, enter
+	--> 	geef in:	sqlcmd -S .\SQLEXPRESS -U sa -P digital@PXL			(of mijn code, en naam ofzo) ... ??
+
+
+

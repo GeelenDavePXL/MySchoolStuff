@@ -1,0 +1,7 @@
+# region OEFENING_1
+# end region				(drop down) (code kan verborgen worden)
+
+
+
+CTRL + K + C 	(snel)		-->	in comment zetten	(meerdere regels tegelijk)
+CTRL + K + U	(snel)		-->	uit comment halen

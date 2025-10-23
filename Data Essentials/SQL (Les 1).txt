@@ -1,0 +1,198 @@
+SQL
+	1. Installatie SQL
+	Laat bij Instance Configuration de standaardnaam SQLEXPRESS staan
+	Bij Database Engine Configuration: kies Mixed Mode en stel het wachtwoord in: digital@PXL
+	
+	5. Installatie controleren
+	Open een command prompt via Windows + R → typ cmd → druk op Enter.
+	Voer in:
+	sqlcmd -?
+
+	6. Samenvatting
+	Installeer SQL Server Express met "Mixed Mode" en wachtwoord digital@PXL
+	Installeer SQLCMD als opdrachtregeltool
+	Test of alles werkt via sqlcmd -?
+  -----------------	
+
+	3. Verbinden met SQL Server via SQLCMD
+	Met de optie -S (hoofdletter!) kan je de naam van de server meegeven waarnaar je wil verbinden. 
+	En met de optie -U (ook hoofdletter!) geef je de gebruiker mee. 
+	Het wachtwoord geef je tenslotte mee achter de -P optie. 
+	Tijdens de cursus werken we met de sa (system administrator) user.
+	Gebruik nu volgend commando om te verbinden met de server:
+
+	sqlcmd -S .\SQLEXPRESS -U sa -P digital@PXL
+
+  -----------------
+	4. Database aanmaken
+	CREATE DATABASE DataEssentials
+	GO
+	5. Database selecteren
+	Maak verbinding met je nieuwe database:
+	USE DataEssentials
+	GO
+	6. Tabellen aanmaken
+	Voer het script Crecase.sql uit (pas eventueel het pad aan naar de map die je in Oefenmap aanmaken gemaakt hebt):
+	:r "C:\Oefeningen_Data_Essentials\Crecase.sql"
+	(--> tabellen worden aangemaakt.)
+	7. Tabellen vullen met testdata
+	Voer daarna het script Vulcase.sql uit (ook hier pas je eventueel het pad aan naar de map die je in Oefenmap aanmaken gemaakt hebt):
+	:r "C:\Oefeningen_Data_Essentials\Vulcase.sql"
+	(--> tabellen zijn gevuld.)
+
+	8. Samenvatting
+	Open de command prompt om SQLCMD te gebruiken
+	Maak een nieuwe map aan voor je scripts
+	Verbind met SQL Server met sqlcmd -S .\SQLEXPRESS -U sa -P digital@PXL
+	Maak een nieuwe database aan met CREATE DATABASE
+	Gebruik :r om scripts uit te voeren die tabellen en data klaarzetten
+  -----------------
+	1. Verbinden met de server
+	sqlcmd -S .\SQLEXPRESS
+	Mocht dit niet lukken, dan ben je als ingelogde gebruiker geen lid van de local admin groep en moet je met de "sa" gebruiker inloggen:
+	sqlcmd -S .\SQLEXPRESS -U sa -P digital@PXL
+
+
+	Dave SQL:	LAPTOP-KCPRIJSL\SQLEXPRESS		(Server Name)
+
+	sqlcmd -S .\SQLEXPRESS -U sa
+
+  -----------------
+
+1e manier
+	(uit SQL)
+	Select *
+	from medwerkers
+
+	select top 1000
+
+2e manier
+	(uit cmd)
+3e manier
+	open Excel
+	ophalen gegevens --> uit database
+	klik tabellen aan --> laden.
+	(voor rapportages vaak gebruikt)
+  -----------------
+
+	-- DATA TYPES --
+	CHAR(n)		--> voor kleine waarden
+	VARCHAR(n)	--> voor grote waarden, of lange strings
+
+
+
+	-- OPERATOREN --
+	SELECT Naam, Maandsal, Maandsal * 12 AS Jaarloon
+	FROM Medewerkers;
+
+	Met de +-operator kan je teksten aan elkaar plakken (concatenatie):		-- (TEKST --> Single Quotes   ' ' )
+	SELECT 'Welkom ' + Voornaam + ' ' + Naam AS Begroeting
+	FROM Medewerkers;
+
+	SELECT * FROM Medewerkers
+	WHERE Maandsal > 3000;
+
+	SELECT * FROM Medewerkers
+	WHERE Functie = 'VERKOPER' AND Maandsal > 2000;
+
+
+	Constante:
+	SELECT 42
+	SELECT 'Hallo'
+
+	Variabelen:
+	@naam
+	@@Server		(systeem..)
+
+
+	--		--> in commentaar zetten
+
+  -----------------
+	DB Properties
+	Collation
+	General CI_AS		--> Case Insensitive	(geen onderscheid tussen hoofdletters, kleine letters)
+				--> Accent Sensitive	(accenten, leestekens --> wel belangrijk) (verschil tussen e en é)
+
+  -----------------
+		(embedded vb)
+	SELECT ...
+	FROM ...
+	WHERE 1=1						-- (1=1)
+	AND (functie= 'verkoper' OR functie = 'trainer)		-- (alles AND zetten) -> werkt ook, handig zegt leraar..
+	AND maandsal > 2000;
+
+  -----------------
+	QUIZ (module 1) : Introductie, Select		(vind ik niet op BB) (was ook easy)
+	1. 	B en C
+	2.	B
+	3.	C
+	4.	B
+	5.	C
+
+  -----------------
+	H3:
+
+	Select DB_Name()	(deed leraar)
+  -----------------
+	** SELECT **
+
+	oef:
+	haal deze 2 kolommen uit de tabel Afdelingen:
+	
+	Select Naam
+		, Locatie
+	FROM Afdelingen;
+	go
+
+  -----------------
+ tip:	als je niet weet welke kolom-namen er zijn:
+	SELECT *
+	FROM Afdelingen;
+
+ tip:	SELECT TOP 3 *		-- (als je niet miljoenen regels wilt gaan ophalen) !
+	FROM Afdelingen;
+
+
+ tip:	Select top * fril sys.tables		(data-objecten ...) (sys.columns   en nog enkele anderen bestaan ook)
+
+  -----------------
+	** ALIAS **
+	
+	SELECT ..
+		, Naam + ' ' + Voornaam AS [Naam en Voornaam]			-- (brackets)
+		, functie
+		, locatie
+	FROM Afdelingen;
+	
+  -----------------
+
+	oef:
+	tabel = medewerkers
+	kolommen = naam, voornaam, maandsalaris, maansalaris + commissie , (maandsalaris+commissie) voor 12 maanden
+
+	SELECT naam
+		, voorn
+		, maandsal
+		, maansal+comm AS [Incl. Comm] 
+		, (maandsal+comm)*12 AS [Totaal incl.Comm]
+	FROM medewerkers;
+	GO
+	
+  -----------------
+
+	SELECT naam
+		, voorn		
+		, maandsal				-- allemaal een waarde
+		, comm					-- velen NULL
+		, maansal+comm AS [Incl. Comm] 		-- waarde + NULL = NULL	!!
+	FROM medewerkers;
+	GO
+
+  -----------------
+ tip:	Je kan een bestaande kolomnaam opnieuw gebruiken (dus 2x tonen in eenzelfde tabel) --> komt niet ten goede van de leesbaarheid.
+
+  -----------------
+
+
+
+

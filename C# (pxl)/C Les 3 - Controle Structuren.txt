@@ -1,0 +1,43 @@
+Code Snippets:
+-------------
+	cw	+ TAB = Console.WriteLine();
+
+	if 	+ TAB TAB =	(ofwel 1*TAB, en op 'kadertje' klikken)
+
+	else
+
+	switch
+
+
+niet:
+	if (fruit == "appel")
+	{}
+	if (fruit == "kers")
+	{}
+	if (fruit == "peer")
+	{}
+	if (fruit == "banaan")
+	{}
+	else
+	{}
+	
+
+WEL:  (beter)
+	if (fruit == "appel")
+	{}
+	else if (fruit.Equals "kers")				.Equals 	zelfde als	==
+	{}
+	else if (fruit == "peer")
+	{}
+	else if (fruit == "banaan")
+	{}
+	else
+	{}
+
+
+
+hoe rode 'stops' zetten, en gebruiken in code?
+hoe kadertje openen, met variabelen, en hun waarde? (en dit zien veranderen per uitgevoerde regel code)
+
+
+3rr4xnw	= teams c# Essentials

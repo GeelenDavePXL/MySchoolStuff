@@ -1,0 +1,32 @@
+26 sept (code leraar)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display CSS-Property</title>
+    <style>
+        .eerste, .tweede, .derde {
+            height: 100px;
+        }
+
+        .eerste {
+            background-color: red;
+        }
+
+        .tweede {
+            background-color: purple;
+        }
+
+        .derde {
+            background-color: orange;
+        }
+
+    </style>
+</head>
+<body>
+<div class="eerste"></div>
+<div class="tweede"></div>
+<div class="derde"></div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+(oef kopteksten effe gemaakt in les)
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a
+
+-------------
+
+div	=	alles hierin, als 1 geheel zien.
+		vb bol.com	-> tekst + subtekst + foto
+		(parent bevat mogelijk meerdere childs)
+
+we maken een nieuwe HTML-file
+zetten in een div: veel verschillende div
+-> daarna veranderen we namen naar deze zoals hieronder:	(zo legde leraar het uit) (inzicht)
+
+
+Structuur-Elementen:		(niet alles div noemen)
+--------------------
+
+<nav>
+
+<main>
+   <header>
+			img + TAB	--> een foto hierin zetten (kan via link, of via bestandje in programma laden)
+<footer>
+
+<article>
+   <header>
+      <section>
+
+
+<aside>		(toont aan zijkant van website)
+
+----------------------------------------------------------------------------
+
+
+HyperLinks:
+-----------
+
+2 attributen gezien
+
+	...
+	
+	target = doel , waar moet deze geopend worden, 		(in de tab waarin ik zit, of nieuwe tab, ... ?)
+			(bedoeling is klant zoveel mogelijk te houden op je website)
+			(onderzoek toonde aan = er is zeer weinig frictie nodig op je website, voor de bezoeker wegklikt) (op 5 sec moet bezoeker vinden wat hij zoekt)
+
+
+
+img + TAB	->	2 manier om te linken naar foto (niet in source een link zetten, want deze kan opeens niet meer werken)
+					->	./ (map) / (fotonaam)
+					->	als foto in dezelfde map is 
+					->	om map hoger te gaan:	../  (CTRL+spatie) toont welke mappen er allemaal zijn 		
+					->	2 mappen hoger gaan:    ../../ 
+						
+					-> 	foto slepen = hij geeft automatisch een Height en Width mee		(Pas Op)^^ !
+
+
+		-> 	2e manier: 	...
+
+interne koppeling:
+			(vb bovenaan klikken op 'footer' --> gaat automatisch naar onderaan de pagina)
+
+
+koppeling naar e-mailadres:
+
+
+
+
+
+
+-->	https://www.hln.be/?referrer=https%3A%2F%2Fwww.google.com%2F		hln.be   CTRL+SHIFT+I	--> aside enz gezien
+
+--> oef HTML maken (tot MuziekLijst)
+
+
+
+
+
+	

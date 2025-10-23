@@ -1,0 +1,26 @@
+GIT
+	-> Na installatie kan je Git starten via Git Bash (zwarte terminal, lijkt op de command line).
+	-> geef in:	git --version
+	-> geeft: 	git version 2.51.0.windows.2
+
+
+passphrase:
+schaken?
+
+The key fingerprint is:
+SHA256:DzWUg8itbIoiWozCu5YaaGVs6ocnWWWFL2aDCBiZtoY 12304475@student.pxl.be
+
+The key's randomart image is:
++---[RSA 4096]----+
+|o+   ..o ...     |
+|=.   .o.o.o      |
+|+ o ..o.  o.     |
+|E+.. B+. . .     |
+|oo *=oo S        |
+|*.O..    o       |
+|*=*       .      |
+|+O o             |
+|+o=              |
++----[SHA256]-----+
+
+

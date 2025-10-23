@@ -1,0 +1,125 @@
+publiek		:
+non-profit	:	rode kruis, de lijn,
+privé		:	(gericht op winst maken)
+
+omvang bepaalt hoe groot een bedrijf is.
+
+commercieel	:	marketing, verkoop,
+operationeel	:	
+ondersteunend	:	IT, boekhouding
+
+
+
+proces		:	aantal stappen in bepaalde volgorde, om een bepaald resultaat te bereiken
+3 manieren
+automatisch		(geen handen nodig) (startknop -> alles automatisch)
+semi-auto		(sommige stappen wel handen nodig)  vb iets scannen -> automatisch een mail naar de klant "het pakket is onderweg".
+manuele processen :	(bij iedere stap mensen nodig)
+
+
+liever automatiseren:	voordelen:	kost minder, preciezer, consistenter, efficiënter, nauwkeuriger
+
+IT: kan alle 3 : commercieel + operationeel + ondersteunend
+
+IT als ondersteunend : scholen, carrefour		(waar IT niet de kernactiviteit is)
+
+IT als ondersteunend + operationeel :	Microsoft, Telenet (verkopen producten met embedded software)
+neem IT weg --> kernactiviteit kan niet uitgevoerd worden : vb Bol.com (geen productie meer)
+
+neem IT weg --> kernactiviteit kan nog uitgevoerd worden : vb bakker (productie kan verder)
+
+----------------------------
+
+Wat is Cloud Computing?
+
+Cloud = voordeel 	vb webshop met kerstbomen --> druk rond Kerst 	(niet in zomer)	
+			gebruik je die minder --> huur je minder ruimte --> goedkoper
+			Flexibel.
+
+on premise = ...
+
+
+ -- QUIZ --			(mogelijk op PE test)  (BB = mapje Oefeningen = Zelf-Test)
+1. 	KernActiviteit
+2.	ERP DMS LMS zijn vb van : BedrijfsApplicaties !
+3.	Een bedrijf koopt zelf servers die in in eigen beheer nemen		= on premise
+4.	de commerciële afdeling werft klanten aan.	
+5.	machine die zelf pakjes sorteert is ... automatisch proces
+6.	pakjeskoerier die pakjes levert, waarbij een automatisch bericht naar klant w gestuurd = semi-automatisch proces
+7.	ICT afdelingshoofd van een HEEL GROOT bedrijf wordt meestal de "ICT manager" genoemd.	=	niet waar	(groot bedrijf = fancy namen)
+8.	koekjesfabriek	--> IT-dienst = enkel ondersteunend	(kernactiviteit = koekjes bakken)
+9.	softwarebedrijf	--> T-dienst = ondersteunend + operationeel
+10.	bol.com	--> T-dienst = (model 3) (kern is niet IT) (maar neem IT weg, dan ligt het alles plat) --> ondersteunend + operationeel
+
+----------------------------
+
+
+	H2 : OrganisatieStructuren
+
+
+Org is altijd in beweging.
+	- nieuwe medewerkers
+	- nieuw leidinggevende, nieuwe aanpak
+	- verandering, in org, buiten org. (in omgeving)
+	-- veel factoren hebben invloed op hoe org functioneert.
+
+
+
+vb ChatGTP 	    --> scholen zetten nu internet uit tijdens testen, of geven andere taken --> anders knippen-plakken studenten gewoon maar..
+vb lockdowns (2020) --> maatregelen bij bedrijven --> afstand houden --> masker dragen --> thuiswerken
+
+
+Structuur Org. bepaald door verdeling van:
+	- Taken
+	- Functie				Lijstje van alle taken, hier wordt een naam opgeplakt.
+	- Verantwoordelijkheid
+	- Bevoegdheid
+
+
+denk terug aan je werk:				redder
+	Wat waren je taken?			orde bewaken, veiligheid van bezoekers bewaken, opruimen orde netheid, EHBO, informatie/uitleg geven
+	Wat was je functie?			
+	Wat waren je verantwoordelijkheden?	veilig houden, opletten, EHBO,
+	Wat waren je bevoegdheden?		zelf kiezen of ik dit zelf ga oplossen of ga doorsturen?
+
+
+denk terug aan je werk:				Plukon 
+	Wat waren je taken?			dozen stapelen, magazijnwerk, controle vlees
+	Wat was je functie?			
+	Wat waren je verantwoordelijkheden?	doen wat leidinggevende zegt
+	Wat waren je bevoegdheden?		toiletbezoek zelf kiezen? tijdens pauzetijd kon je zelf of je binnen of buiten zit, wat je eet.
+
+
+
+PPT:
+	Org. 
+	Opdracht: welke differentiatie herken je hier?
+		- indeling per Functie	(inkoop, productie, verkoop)
+		- indeling per Geografisch (noord, zuid)
+		- indeling per markt 	(verkopen aan Supermarkt, of aan ...
+		--> inkoop leidinggevende : heeft spanwijdte van "2 teams"	(niet zo een goede vraag) (we weten niet hoe groot de teams zijn)
+
+
+formele org. = de org zoals ze op papier staat. 
+		(alles wat neergeschreven is)
+informele org = alles wat niet op papier staat. 	(vb soms een babbel doen aan koffiemachine met collega, vragen, informeren, contacten)
+
+
+
+vb Doran:
+	was adviser bij Telenet
+	daarboven: senior advisers
+	daarboven: TeamCoach
+	daarboven: andere TeamCoach
+	daarboven: HR
+
+informeel: 	hoe gemakkelijk kan je praten met leidinggevende? hoe makkelijk was het met collega's spreken? was de sfeer goed, speels, vriendelijk?
+		hielpen ze elkaar?
+
+PXL:
+	horizontale differentiatie
+		- lesgevers 
+		- onderzoek
+		- administratie
+	leidinggevende is makkelijk aanspreekbaar.
+	leraar mag zelf kiezen of ze wel/niet, en hoelang pauze geeft. (gaat niemand anders iets van zeggen)
